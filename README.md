@@ -12,5 +12,10 @@ This tool helps users compare the cost of running workloads on Dell APEX vs AWS 
 - Frontend: React + Axios
 
 ## Run Locally
-1. `cd backend && uvicorn main:app --reload`
-2. `cd frontend/hybrid-cost-ui && npm start`
+1. `cd hybrid-cloud-cost-tool`
+2. `source venv/Scripts/activate`
+3. `cd backend`
+4. `uvicorn main:app --reload`
+5. `cd ..`
+6. `cd frontend/hybrid-cost-ui`
+7. `npm start`
